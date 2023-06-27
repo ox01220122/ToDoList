@@ -1,6 +1,9 @@
 const express = require("express");
 const app = express();
+const cors = require("cors");
 const PORT = 8000;
+
+app.use(cors());
 //템플릿
 // app.set("view engine", "ejs");
 // app.use("/views", express.static(__dirname + "/views"));
