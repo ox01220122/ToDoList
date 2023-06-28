@@ -1,3 +1,62 @@
+.input-data {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  padding: 40px;
+}
+
+.input-data-text {
+  width: 90%;
+  font-size: larger;
+}
+.add-button {
+  background-color: rgb(56, 80, 216);
+  color: white;
+  border-style: none;
+  font-weight: bolder;
+  border-radius: 3px;
+}
+.add-button:hover {
+  background-color: rgb(67, 67, 153);
+  cursor: pointer;
+}
+
 .show-todo {
   display: flex;
+  justify-content: space-between;
+  font-size: larger;
+  width: 90%;
+  padding: 10px;
+}
+
+.null-msg {
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+  color: gray;
+}
+
+.todo-title {
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+  color: rgb(7, 27, 142);
+}
+
+.check-list {
+  display: flex;
+  padding-left: 80px;
+}
+
+.trash-button {
+  border-style: none;
+  background-color: rgba(63, 62, 62, 0.7);
+  color: white;
+  border-radius: 100px;
+  width: 30px;
+  height: 30px;
+}
+.trash-button:hover {
+  background-color: rgba(20, 19, 19, 0.7);
+  cursor: pointer;
 }
